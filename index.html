@@ -204,6 +204,22 @@
     })
   </script>
 
+ <script>
+    function changeColor(element) {
+      // Get the current class index
+      const currentIndex = parseInt(element.className.match(/\d+/), 10) || 0;
+  
+      // Calculate the next class index (cycling through 1, 2, 3, and back to 1)
+      const nextIndex = (currentIndex % 5) + 1;
+  
+      // Remove the current class and add the next one
+      element.classList.remove(`clicked-${currentIndex}`);
+      element.classList.add(`clicked-${nextIndex}`);
+    }
+  </script>
+
+    
+
 
 </body>
 </html>
