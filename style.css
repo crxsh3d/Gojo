@@ -499,7 +499,6 @@ nav ul li a:hover::after{
 .contact-right form{
     width: 100%;
 }
-
 form input,form textarea{
     width: 100%;
     border: 0;
@@ -527,16 +526,42 @@ footer{
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
     
-footer i{
+.footer-tab .heart-icon {
+    color: red; 
+    cursor: pointer;
+  }
+
+ 
+  .footer-tab.clicked-1 .heart-icon {
+    color: blue;
+  }
+
+  .footer-tab.clicked-2 .heart-icon {
+    color: green;
+  }
+
+  .footer-tab.clicked-3 .heart-icon {
+    color: orange;
+  }
+
+  .footer-tab.clicked-4 .heart-icon{
+    color: violet;
+  }
+
+  .footer-tab.clicked-5 .heart-icon{
     color: red;
-    
-}
+  }
+ 
+ 
+
 
 #msg{
     color: #61b752;
     margin-top: 5px;
     display: block;
 }
+
