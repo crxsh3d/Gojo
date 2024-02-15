@@ -536,23 +536,23 @@ footer{
   }
 
  
-  .footer-tab.clicked-1 .heart-icon {
+.footer-tab.clicked-1 .heart-icon {
     color: blue;
   }
 
-  .footer-tab.clicked-2 .heart-icon {
+.footer-tab.clicked-2 .heart-icon {
     color: green;
   }
 
-  .footer-tab.clicked-3 .heart-icon {
+.footer-tab.clicked-3 .heart-icon {
     color: orange;
   }
 
-  .footer-tab.clicked-4 .heart-icon{
+ .footer-tab.clicked-4 .heart-icon{
     color: violet;
   }
 
-  .footer-tab.clicked-5 .heart-icon{
+.footer-tab.clicked-5 .heart-icon{
     color: red;
   }
  
