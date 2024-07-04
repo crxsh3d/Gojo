@@ -204,7 +204,7 @@ nav ul li a:hover::after{
 
 .imgs{
     position: absolute;
-    top: 200px;
+    top: 25%;
     left: 65px;
     right: 50px;
 }
@@ -213,7 +213,7 @@ nav ul li a:hover::after{
 #img1{
     position: absolute;
     top: 110%;
-    left: -0.5%;
+    left: 65px;
     right: 50px;
     height: 85vh;
     width: 195vh;
@@ -225,7 +225,8 @@ nav ul li a:hover::after{
   height: 85vh;
   width: 195vh;
   top: 204%;
-  left: -0.5%;
+  left: 65px;
+  right: 50px;  
 
 }
 
@@ -234,7 +235,8 @@ nav ul li a:hover::after{
   height: 85vh;
   width: 195vh;
   top: 298%;
-  left: -0.5%;
+  left: 65px;
+  right: 50px; 
   
 
 }
