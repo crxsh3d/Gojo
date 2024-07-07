@@ -213,29 +213,25 @@ nav ul li a:hover::after{
 #img1{
     position: absolute;
     top: 110%;
-    left: -0.5%;
+    left: 65px;
     right: 50px;
-    height: 85vh;
-    width: 195vh;
     
 }
 
 #img2{
   position: absolute;
-  height: 85vh;
-  width: 195vh;
+  
   top: 204%;
+  left: 65px;
   right: 50px;
-  left: -0.5%;
 
 }
 
 #img3{
   position: absolute;
-  height: 85vh;
-  width: 195vh;
+ 
   top: 298%;
-  left: -0.5%;
+  left: 65px;
   right: 50px; 
   
 
