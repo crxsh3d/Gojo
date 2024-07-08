@@ -215,7 +215,7 @@ nav ul li a:hover::after{
     top: 110%;
     left: 65px;
     right: 50px;
-    width: 85vh;
+    width: 50%;
     
 }
 
@@ -223,7 +223,7 @@ nav ul li a:hover::after{
   position: absolute;
   
   top: 204%;
-  width: 85vh;
+  width: 50%;
   left: 65px;
   right: 50px;
 
@@ -233,7 +233,7 @@ nav ul li a:hover::after{
   position: absolute;
  
   top: 298%;
-  width: 85vh;
+  width: 50%;
   left: 65px;
   right: 50px; 
   
